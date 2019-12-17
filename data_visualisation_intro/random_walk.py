@@ -5,7 +5,7 @@ from random import choice
 
 class RandomWalk():
 
-    def __init__(self, number_points=20000):
+    def __init__(self, number_points=5000):
         self.number_points = number_points
 
         # X and Y always starts with 0 since the point needs to start from 0,0
@@ -14,12 +14,12 @@ class RandomWalk():
 
     def walk(self):
         while len(self.x_value) < self.number_points:
-            x_direction = choice([-1, 1])
-            x_distance = choice([0, 1, 2, 3, 4])
+            x_direction = choice([x for x in range(-100,100)])
+            x_distance = choice([x for x in range(1,100)])
             x_step = x_direction * x_distance
 
-            y_direction = choice([-1, 1])
-            y_distance = choice([0, 1, 2, 3, 4])
+            y_direction = choice([x for x in range(-100,100)])
+            y_distance = choice([x for x in range(1,100)])
             y_step = y_direction * y_distance
 
             next_x = self.x_value[-1] + x_step
