@@ -14,16 +14,22 @@ class RandomWalk():
 
     def walk(self):
         while len(self.x_value) < self.number_points:
-            x_direction = choice([x for x in range(-100,100)])
-            x_distance = choice([x for x in range(1,100)])
-            x_step = x_direction * x_distance
-
-            y_direction = choice([x for x in range(-100,100)])
-            y_distance = choice([x for x in range(1,100)])
-            y_step = y_direction * y_distance
-
+            x_step = self.get_steps_x()
+            y_step = self.get_steps_y()
             next_x = self.x_value[-1] + x_step
             next_y = self.y_value[-1] + y_step
 
             self.x_value.append(next_x)
             self.y_value.append(next_y)
+
+    def get_steps_x(self):
+        x_direction = choice([x for x in range(-100, 100)])
+        x_distance = choice([x for x in range(1, 100)])
+        x_step = x_direction * x_distance
+        return x_step
+
+    def get_steps_y(self):
+        y_direction = choice([x for x in range(-100, 100)])
+        y_distance = choice([x for x in range(1, 100)])
+        y_step = y_direction * y_distance
+        return y_step
