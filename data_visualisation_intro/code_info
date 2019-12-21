@@ -17,4 +17,17 @@ formatted_xy = list(zip(my_walk.x_values,my_walk.y_values))
 graph.add("Name of what's added", formatted_xy)
 
 
+#Usefull shit !!!
+
+[next(f) for i in range(12)]
+headings = next(f)
+
+does next() 11 times and the next next() is the best next()
+
+You can also use readlines
+
+line = f.readlines()
+heading = line[12]
+#Altough I don't know if it will pick up from line 12 as the next() function does
+
 

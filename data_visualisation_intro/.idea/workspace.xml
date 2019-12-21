@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8ea784-9d46-4d80-bd7c-0d1cc8c6370c" name="Default Changelist" comment="added mpl_squares that contains a chart that displays the square root of x-axis correctly after we added input_values.">
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/death_valley_2014.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/death_valley_2018_full.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/death_valley_2018_simple.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/sitka_weather_07-2014.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/sitka_weather_07-2018_simple.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/sitka_weather_2014.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/sitka_weather_2018_full.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/csv_data/sitka_weather_2018_simple.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloading_data/high_lows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/downloading_data/humidity_comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_global_data_sets/americas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_global_data_sets/countries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_global_data_sets/country_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_global_data_sets/population_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_global_data_sets/world_population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_global_data_sets/world_population_2010.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oradea_weather.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_info" beforeDir="false" afterPath="$PROJECT_DIR$/code_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygal_die/die_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygal_die/die_visual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygal_die/die_visual.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pygal_die/die_visual.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_walk/rw_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_walk/rw_visual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloading_data/high_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/downloading_data/high_lows.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +53,8 @@
       <recent name="C:\Users\ghira\Desktop\Programming\Python Projects\Data_Visualisation_Project\data_visualisation_intro\matplotlib_plots" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.high_lows">
-    <configuration name="die_visual" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.world_population">
+    <configuration name="americas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_visualisation_intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygal_die" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mapping_global_data_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygal_die/die_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mapping_global_data_sets/americas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="high_lows" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="countries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_visualisation_intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/downloading_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mapping_global_data_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/downloading_data/high_lows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mapping_global_data_sets/countries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_walk_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="country_codes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_visualisation_intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,32 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mapping_global_data_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ghira\Desktop\Programming\Python Projects\Data_Visualisation_Project\data_visualisation_intro\random_walk\random_walk_plot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rw_visual" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_visualisation_intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ghira\Desktop\Programming\Python Projects\Data_Visualisation_Project\data_visualisation_intro\random_walk\rw_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mapping_global_data_sets/country_codes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,13 +138,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="world_population" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_visualisation_intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mapping_global_data_sets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mapping_global_data_sets/world_population.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.high_lows" />
+        <item itemvalue="Python.world_population" />
+        <item itemvalue="Python.americas" />
+        <item itemvalue="Python.country_codes" />
+        <item itemvalue="Python.countries" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.die_visual" />
-        <item itemvalue="Python.rw_visual" />
-        <item itemvalue="Python.random_walk_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -224,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576509046182" />
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom" timestamp="1576926325388">
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom" timestamp="1576960348066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576926325388" />
-    <state width="1899" height="210" key="GridCell.Tab.0.center" timestamp="1576926325388">
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576960348066" />
+    <state width="1899" height="210" key="GridCell.Tab.0.center" timestamp="1576960348066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576926325388" />
-    <state width="1899" height="210" key="GridCell.Tab.0.left" timestamp="1576926325388">
+    <state width="1899" height="210" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576960348066" />
+    <state width="1899" height="210" key="GridCell.Tab.0.left" timestamp="1576960348066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576926325388" />
-    <state width="1899" height="210" key="GridCell.Tab.0.right" timestamp="1576926325388">
+    <state width="1899" height="210" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576960348066" />
+    <state width="1899" height="210" key="GridCell.Tab.0.right" timestamp="1576960348066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576926325388" />
+    <state width="1899" height="210" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576960348066" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1576794241764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,13 +252,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576794241764" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576611551452">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576945968550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576611551452" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576924357357">
+    <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576945968550" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576934304204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576924357357" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576934304204" />
   </component>
 </project>
