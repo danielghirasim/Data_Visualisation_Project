@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Get high temperatures from file.
-folder = 'C:/Users/ghira/Desktop/Programming/Python Projects/Data_Visualisation_Project/data_visualisation_intro/downloading_data/csv_data/'
-file_path = folder + 'death_valley_2014.csv'
+file_path = 'csv_data/death_valley_2014.csv'
 
 with open(file_path) as f:
     reader = csv.reader(f)
